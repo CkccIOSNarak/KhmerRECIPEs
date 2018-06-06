@@ -14,6 +14,12 @@
 		0F29067920B6D2F0009BDBAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F29067720B6D2F0009BDBAA /* LaunchScreen.storyboard */; };
 		0F29068420B6D2F0009BDBAA /* Khmer_RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F29068320B6D2F0009BDBAA /* Khmer_RecipeTests.swift */; };
 		0F29068F20B6D2F1009BDBAA /* Khmer_RecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F29068E20B6D2F1009BDBAA /* Khmer_RecipeUITests.swift */; };
+		0F6FFB4020BC297500BC55E2 /* FeedBackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6FFB3F20BC297500BC55E2 /* FeedBackTableViewController.swift */; };
+		0F6FFB4220BC299000BC55E2 /* AddFeedBackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6FFB4120BC299000BC55E2 /* AddFeedBackTableViewController.swift */; };
+		0F6FFB4420BC2C3E00BC55E2 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6FFB4320BC2C3E00BC55E2 /* MoreTableViewController.swift */; };
+		25BDE75CE6733D8962EA7658 /* Pods_Khmer_RecipeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272856F400EEA0A0FA7959D0 /* Pods_Khmer_RecipeTests.framework */; };
+		39F5E9A923BE0FC97734D0C1 /* Pods_Khmer_Recipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B811D51DF6D82F3F4A92F9 /* Pods_Khmer_Recipe.framework */; };
+		4743F5859EEEA0DA3B494B16 /* Pods_Khmer_RecipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D76D745D50485FFE11DC716 /* Pods_Khmer_RecipeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,18 @@
 		0F29068A20B6D2F1009BDBAA /* Khmer RecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khmer RecipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F29068E20B6D2F1009BDBAA /* Khmer_RecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Khmer_RecipeUITests.swift; sourceTree = "<group>"; };
 		0F29069020B6D2F1009BDBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6FFB3F20BC297500BC55E2 /* FeedBackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackTableViewController.swift; sourceTree = "<group>"; };
+		0F6FFB4120BC299000BC55E2 /* AddFeedBackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedBackTableViewController.swift; sourceTree = "<group>"; };
+		0F6FFB4320BC2C3E00BC55E2 /* MoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		1A012DAF5D1DD4F0BA467C30 /* Pods-Khmer Recipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khmer Recipe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Khmer Recipe/Pods-Khmer Recipe.debug.xcconfig"; sourceTree = "<group>"; };
+		272856F400EEA0A0FA7959D0 /* Pods_Khmer_RecipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Khmer_RecipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4A803D8B58C1C0BB091796 /* Pods-Khmer Recipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khmer Recipe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Khmer Recipe/Pods-Khmer Recipe.release.xcconfig"; sourceTree = "<group>"; };
+		3A1A94B0D7263706FAF41B4C /* Pods-Khmer RecipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khmer RecipeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Khmer RecipeTests/Pods-Khmer RecipeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E7058D9F9FFD4D1B6F47A56 /* Pods-Khmer RecipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khmer RecipeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Khmer RecipeUITests/Pods-Khmer RecipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D76D745D50485FFE11DC716 /* Pods_Khmer_RecipeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Khmer_RecipeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96121C52D2F4B0EC15F95083 /* Pods-Khmer RecipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khmer RecipeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Khmer RecipeTests/Pods-Khmer RecipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		980DEF3027394D3D4BCDBEA5 /* Pods-Khmer RecipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khmer RecipeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Khmer RecipeUITests/Pods-Khmer RecipeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1B811D51DF6D82F3F4A92F9 /* Pods_Khmer_Recipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Khmer_Recipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F5E9A923BE0FC97734D0C1 /* Pods_Khmer_Recipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BDE75CE6733D8962EA7658 /* Pods_Khmer_RecipeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4743F5859EEEA0DA3B494B16 /* Pods_Khmer_RecipeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				0F29068220B6D2F0009BDBAA /* Khmer RecipeTests */,
 				0F29068D20B6D2F1009BDBAA /* Khmer RecipeUITests */,
 				0F29066C20B6D2EB009BDBAA /* Products */,
+				1EA7CDF5F9EE27EE3E12E25E /* Pods */,
+				BA35C829BEBCC1206E12FDE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +126,9 @@
 				0F29067520B6D2F0009BDBAA /* Assets.xcassets */,
 				0F29067720B6D2F0009BDBAA /* LaunchScreen.storyboard */,
 				0F29067A20B6D2F0009BDBAA /* Info.plist */,
+				0F6FFB3F20BC297500BC55E2 /* FeedBackTableViewController.swift */,
+				0F6FFB4120BC299000BC55E2 /* AddFeedBackTableViewController.swift */,
+				0F6FFB4320BC2C3E00BC55E2 /* MoreTableViewController.swift */,
 			);
 			path = "Khmer Recipe";
 			sourceTree = "<group>";
@@ -125,6 +151,29 @@
 			path = "Khmer RecipeUITests";
 			sourceTree = "<group>";
 		};
+		1EA7CDF5F9EE27EE3E12E25E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A012DAF5D1DD4F0BA467C30 /* Pods-Khmer Recipe.debug.xcconfig */,
+				2C4A803D8B58C1C0BB091796 /* Pods-Khmer Recipe.release.xcconfig */,
+				96121C52D2F4B0EC15F95083 /* Pods-Khmer RecipeTests.debug.xcconfig */,
+				3A1A94B0D7263706FAF41B4C /* Pods-Khmer RecipeTests.release.xcconfig */,
+				6E7058D9F9FFD4D1B6F47A56 /* Pods-Khmer RecipeUITests.debug.xcconfig */,
+				980DEF3027394D3D4BCDBEA5 /* Pods-Khmer RecipeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA35C829BEBCC1206E12FDE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B811D51DF6D82F3F4A92F9 /* Pods_Khmer_Recipe.framework */,
+				272856F400EEA0A0FA7959D0 /* Pods_Khmer_RecipeTests.framework */,
+				8D76D745D50485FFE11DC716 /* Pods_Khmer_RecipeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F29069320B6D2F1009BDBAA /* Build configuration list for PBXNativeTarget "Khmer Recipe" */;
 			buildPhases = (
+				4D893A8AA27B5D3FB26B9A25 /* [CP] Check Pods Manifest.lock */,
 				0F29066720B6D2EB009BDBAA /* Sources */,
 				0F29066820B6D2EB009BDBAA /* Frameworks */,
 				0F29066920B6D2EB009BDBAA /* Resources */,
+				FAC77D7462C46A2FDFD6A468 /* [CP] Embed Pods Frameworks */,
+				2EDD5A2EA877BFE4E5DA11B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F29069620B6D2F1009BDBAA /* Build configuration list for PBXNativeTarget "Khmer RecipeTests" */;
 			buildPhases = (
+				C12C8CB2F85162DD905D72C0 /* [CP] Check Pods Manifest.lock */,
 				0F29067B20B6D2F0009BDBAA /* Sources */,
 				0F29067C20B6D2F0009BDBAA /* Frameworks */,
 				0F29067D20B6D2F0009BDBAA /* Resources */,
@@ -167,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F29069920B6D2F1009BDBAA /* Build configuration list for PBXNativeTarget "Khmer RecipeUITests" */;
 			buildPhases = (
+				D52CB0637230535DE6B68D3C /* [CP] Check Pods Manifest.lock */,
 				0F29068620B6D2F1009BDBAA /* Sources */,
 				0F29068720B6D2F1009BDBAA /* Frameworks */,
 				0F29068820B6D2F1009BDBAA /* Resources */,
@@ -251,13 +305,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EDD5A2EA877BFE4E5DA11B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Khmer Recipe/Pods-Khmer Recipe-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Khmer Recipe/Pods-Khmer Recipe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D893A8AA27B5D3FB26B9A25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Khmer Recipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C12C8CB2F85162DD905D72C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Khmer RecipeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52CB0637230535DE6B68D3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Khmer RecipeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC77D7462C46A2FDFD6A468 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Khmer Recipe/Pods-Khmer Recipe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Khmer Recipe/Pods-Khmer Recipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F29066720B6D2EB009BDBAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F6FFB4220BC299000BC55E2 /* AddFeedBackTableViewController.swift in Sources */,
 				0F29067120B6D2EC009BDBAA /* ViewController.swift in Sources */,
 				0F29066F20B6D2EB009BDBAA /* AppDelegate.swift in Sources */,
+				0F6FFB4020BC297500BC55E2 /* FeedBackTableViewController.swift in Sources */,
+				0F6FFB4420BC2C3E00BC55E2 /* MoreTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +598,13 @@
 		};
 		0F29069420B6D2F1009BDBAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A012DAF5D1DD4F0BA467C30 /* Pods-Khmer Recipe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer Recipe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,10 +618,13 @@
 		};
 		0F29069520B6D2F1009BDBAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4A803D8B58C1C0BB091796 /* Pods-Khmer Recipe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer Recipe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,10 +638,12 @@
 		};
 		0F29069720B6D2F1009BDBAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96121C52D2F4B0EC15F95083 /* Pods-Khmer RecipeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer RecipeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,10 +660,12 @@
 		};
 		0F29069820B6D2F1009BDBAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1A94B0D7263706FAF41B4C /* Pods-Khmer RecipeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer RecipeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -502,9 +682,11 @@
 		};
 		0F29069A20B6D2F1009BDBAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E7058D9F9FFD4D1B6F47A56 /* Pods-Khmer RecipeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer RecipeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,9 +703,11 @@
 		};
 		0F29069B20B6D2F1009BDBAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980DEF3027394D3D4BCDBEA5 /* Pods-Khmer RecipeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer RecipeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
