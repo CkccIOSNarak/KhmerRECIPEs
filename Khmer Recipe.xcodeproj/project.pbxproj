@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,11 @@
 		0F29067920B6D2F0009BDBAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F29067720B6D2F0009BDBAA /* LaunchScreen.storyboard */; };
 		0F29068420B6D2F0009BDBAA /* Khmer_RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F29068320B6D2F0009BDBAA /* Khmer_RecipeTests.swift */; };
 		0F29068F20B6D2F1009BDBAA /* Khmer_RecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F29068E20B6D2F1009BDBAA /* Khmer_RecipeUITests.swift */; };
+		0F2ED33720CE964300DD971C /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ED33620CE964300DD971C /* ProfileTableViewController.swift */; };
+		0F2ED33920CE9AF100DD971C /* NewFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ED33820CE9AF100DD971C /* NewFeedTableViewController.swift */; };
+		0F2ED33B20CE9C6200DD971C /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ED33A20CE9C6200DD971C /* CategoryTableViewController.swift */; };
+		0F2ED33D20CEA5D200DD971C /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2ED33C20CEA5D200DD971C /* user.swift */; };
+		0F486FB220C80A2900FCFFAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F486FB120C80A2800FCFFAC /* GoogleService-Info.plist */; };
 		0F6FFB4020BC297500BC55E2 /* FeedBackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6FFB3F20BC297500BC55E2 /* FeedBackTableViewController.swift */; };
 		0F6FFB4220BC299000BC55E2 /* AddFeedBackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6FFB4120BC299000BC55E2 /* AddFeedBackTableViewController.swift */; };
 		0F6FFB4420BC2C3E00BC55E2 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6FFB4320BC2C3E00BC55E2 /* MoreTableViewController.swift */; };
@@ -53,6 +58,11 @@
 		0F29068A20B6D2F1009BDBAA /* Khmer RecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khmer RecipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F29068E20B6D2F1009BDBAA /* Khmer_RecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Khmer_RecipeUITests.swift; sourceTree = "<group>"; };
 		0F29069020B6D2F1009BDBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2ED33620CE964300DD971C /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		0F2ED33820CE9AF100DD971C /* NewFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedTableViewController.swift; sourceTree = "<group>"; };
+		0F2ED33A20CE9C6200DD971C /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		0F2ED33C20CEA5D200DD971C /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		0F486FB120C80A2800FCFFAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0F6FFB3F20BC297500BC55E2 /* FeedBackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackTableViewController.swift; sourceTree = "<group>"; };
 		0F6FFB4120BC299000BC55E2 /* AddFeedBackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedBackTableViewController.swift; sourceTree = "<group>"; };
 		0F6FFB4320BC2C3E00BC55E2 /* MoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +139,11 @@
 				0F6FFB3F20BC297500BC55E2 /* FeedBackTableViewController.swift */,
 				0F6FFB4120BC299000BC55E2 /* AddFeedBackTableViewController.swift */,
 				0F6FFB4320BC2C3E00BC55E2 /* MoreTableViewController.swift */,
+				0F486FB120C80A2800FCFFAC /* GoogleService-Info.plist */,
+				0F2ED33620CE964300DD971C /* ProfileTableViewController.swift */,
+				0F2ED33820CE9AF100DD971C /* NewFeedTableViewController.swift */,
+				0F2ED33A20CE9C6200DD971C /* CategoryTableViewController.swift */,
+				0F2ED33C20CEA5D200DD971C /* user.swift */,
 			);
 			path = "Khmer Recipe";
 			sourceTree = "<group>";
@@ -247,19 +262,22 @@
 				TargetAttributes = {
 					0F29066A20B6D2EB009BDBAA = {
 						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
 					};
 					0F29067E20B6D2F0009BDBAA = {
 						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 0F29066A20B6D2EB009BDBAA;
 					};
 					0F29068920B6D2F1009BDBAA = {
 						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 0F29066A20B6D2EB009BDBAA;
 					};
 				};
 			};
 			buildConfigurationList = 0F29066620B6D2EB009BDBAA /* Build configuration list for PBXProject "Khmer Recipe" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -285,6 +303,7 @@
 			files = (
 				0F29067920B6D2F0009BDBAA /* LaunchScreen.storyboard in Resources */,
 				0F29067620B6D2F0009BDBAA /* Assets.xcassets in Resources */,
+				0F486FB220C80A2900FCFFAC /* GoogleService-Info.plist in Resources */,
 				0F29067420B6D2EC009BDBAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,9 +442,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2ED33720CE964300DD971C /* ProfileTableViewController.swift in Sources */,
+				0F2ED33D20CEA5D200DD971C /* user.swift in Sources */,
 				0F6FFB4220BC299000BC55E2 /* AddFeedBackTableViewController.swift in Sources */,
 				0F29067120B6D2EC009BDBAA /* ViewController.swift in Sources */,
+				0F2ED33B20CE9C6200DD971C /* CategoryTableViewController.swift in Sources */,
 				0F29066F20B6D2EB009BDBAA /* AppDelegate.swift in Sources */,
+				0F2ED33920CE9AF100DD971C /* NewFeedTableViewController.swift in Sources */,
 				0F6FFB4020BC297500BC55E2 /* FeedBackTableViewController.swift in Sources */,
 				0F6FFB4420BC2C3E00BC55E2 /* MoreTableViewController.swift in Sources */,
 			);
@@ -590,8 +613,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -605,10 +627,7 @@
 				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer Recipe/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HR.Khmer-Recipe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -625,10 +644,7 @@
 				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer Recipe/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HR.Khmer-Recipe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -645,11 +661,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer RecipeTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HR.Khmer-RecipeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -667,11 +679,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer RecipeTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HR.Khmer-RecipeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -688,11 +696,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer RecipeUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HR.Khmer-RecipeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -709,11 +713,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BWBW4NRDP6;
 				INFOPLIST_FILE = "Khmer RecipeUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HR.Khmer-RecipeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

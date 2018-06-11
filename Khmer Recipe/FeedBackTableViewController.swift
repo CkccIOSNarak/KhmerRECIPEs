@@ -9,6 +9,9 @@
 import UIKit
 
 class FeedBackTableViewController: UITableViewController {
-
+    @IBOutlet weak var userImageView: UIImageView!
+    @IBOutlet weak var postImageView: UIImageView!
+    @IBOutlet weak var userNameLabel: UILabel!
+    
 
 }
